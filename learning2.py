@@ -62,3 +62,51 @@
 # x**=2
 # print("The value of x is:", x)
 
+'''In Python, we can use the comparison operators to compare two values. The result of a comparison is a boolean value (True or False).'''
+# x=10
+# y=10
+# print("The comparison of x and y is:", x==y)
+# print("The comparison of x and y is:", x!=y)
+# print("The comparison of x and y is:", x>y)
+# print("The comparison of x and y is:", x<y)
+# print("The comparison of x and y is:", x>=y)
+# print("The comparison of x and y is:", x<=y)
+
+'''In Python, we can use the logical operators to combine multiple comparisons. The result of a logical operation is a boolean value (True or False).'''
+# x=10
+# y="10"
+# print("The comparison of x and y is:", x==y)
+# x=10
+# y=20
+# print("The comparison of x and y is:", x<y or x!=10 or x==y)
+# print("The negation of x!=10 is:", not x!=10)
+
+'''In Python, we can use the membership operators to check if a value is present in a sequence (such as a string, list, or tuple). The result of a membership operation is a boolean value (True or False).'''
+# str="hello Saho"
+# print('s' not in str)
+# list1=[10,20,30,40,50,60]
+# print(80 in list1)
+
+'''In Python, we can use the identity operators to check if two variables refer to the same object in memory. The result of an identity operation is a boolean value (True or False).'''
+# x=20
+# y=20
+# print("The memory address of x is:", id(x))
+# print("The memory address of y is:", id(y))
+# print("The comparison of x and y is:", x==y)
+# print("The identity check of x and y is:", x is y)
+# x=[1,2,3]
+# y=[1,2,3]
+# print("The memory address of x is:", id(x))
+# print("The memory address of y is:", id(y))
+# print("The comparison of x and y is:", x==y)
+# print("The identity check of x and y is:", x is y)
+
+'''In Python, we can use the bitwise operators to perform bitwise operations on integers. The result of a bitwise operation is an integer.'''
+x=8
+y=10
+print("The binary representation of x is:", bin(x))
+print("The binary representation of y is:", bin(y))
+print("The binary representation of x&y is:", bin(x&y), "and the decimal value is:", x&y)
+print("The binary representation of x|y is:", bin(x|y), "and the decimal value is:", x|y)
+print("The binary representation of x^y is:", bin(x^y), "and the decimal value is:", x^y)
+print("The decimal value of x&y is:", x&y)

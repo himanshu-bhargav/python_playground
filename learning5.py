@@ -1,4 +1,3 @@
-''' This file is for learning purposes only. It is not intended to be used in production. '''
 
 ''' A dictionary is a collection of key-value pairs. It is unordered, mutable, and indexed. In Python, dictionaries are written with curly brackets, and they have keys and values. '''
 dict1={'course_name': 'Python Programming', 'course_duration': '3 months', 'course_fee': 50000}
